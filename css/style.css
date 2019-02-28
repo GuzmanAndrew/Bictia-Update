@@ -3,3 +3,27 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/*color de el apartado de menus*/
+header{
+    background-color: #f0a03c;
+    height: 90px;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+/*color del fondo*/
+nav{
+    background-color: #362E2B;
+}
+  
+/*color de los textos*/
+p{
+    color: aliceblue;
+    text-shadow: rgb(145, 145, 145);
+}
+
+/*color de sombras separacion*/
+div{
+    box-shadow: #665751;
+}
