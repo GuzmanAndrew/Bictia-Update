@@ -25,6 +25,10 @@ Es el lugar en el que convergen la tecnología, los nuevos emprendimientos y el 
 
 - Tercera sección: Va hacer nuestro video
 
+
+![video](https://user-images.githubusercontent.com/31290033/53538284-11a84500-3adb-11e9-895c-d7828b0b8c6c.png)
+
+
 - Cuarta sección: van a contener las imagenes con su respectiva descripción, donde se muestre la "mision", "vision" y "quienes somos?"
 
 
