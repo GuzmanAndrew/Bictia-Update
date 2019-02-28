@@ -4,7 +4,7 @@ Es el lugar en el que convergen la tecnología, los nuevos emprendimientos y el 
 
 ## Explicación del html
 
-1. En la seccion del "head" nos encontraremos con la etiqueta "link" que nos dice el tipo de fuente
+1. En la seccion del "head" nos encontraremos con dos etiquetas "link", una que nos dice el tipo de fuente y la otra que es la ruta del archivo .css
 
 2. En el comentario "Menu" va a ir todo lo relaionado con respecto al menu
 
