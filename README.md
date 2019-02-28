@@ -32,6 +32,9 @@ Es el lugar en el que convergen la tecnología, los nuevos emprendimientos y el 
 - Cuarta sección: van a contener las imagenes con su respectiva descripción, donde se muestre la "mision", "vision" y "quienes somos?"
 
 
+![descripcion](https://user-images.githubusercontent.com/31290033/53538339-41efe380-3adb-11e9-818d-eba2a1b6ee0c.png)
+
+
 ## Creditos
 
 - Equipo thor-pm
