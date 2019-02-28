@@ -20,6 +20,9 @@ Es el lugar en el que convergen la tecnología, los nuevos emprendimientos y el 
 
 - Segunda sección: Va hacer nuestro mensaje reflexivo contenido en un "div" individual
 
+![mensaje](https://user-images.githubusercontent.com/31290033/53538252-e887b480-3ada-11e9-9063-b07f8b47d246.png)
+
+
 - Tercera sección: Va hacer nuestro video
 
 - Cuarta sección: van a contener las imagenes con su respectiva descripción, donde se muestre la "mision", "vision" y "quienes somos?"
