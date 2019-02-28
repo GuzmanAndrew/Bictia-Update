@@ -5,6 +5,7 @@ Es el lugar en el que convergen la tecnología, los nuevos emprendimientos y el 
 ## Explicación del html
 
 1. En la seccion del "head" nos encontraremos con la etiqueta "link" que nos dice el tipo de fuente
+![menu](https://user-images.githubusercontent.com/31290033/53537599-81690080-3ad8-11e9-928f-ff21181115af.png)
 
 2. En el comentario "Menu" va a ir todo lo relaionado con respecto al menu
 
