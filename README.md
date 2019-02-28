@@ -14,6 +14,10 @@ Es el lugar en el que convergen la tecnología, los nuevos emprendimientos y el 
 
 - Primera sección: es la portada en donde va a ir el formulario de informacion contenido en un "div" y la otra seccion es la descripcion de bictia que esta dentro de otro "div"
 
+
+![portada](https://user-images.githubusercontent.com/31290033/53538211-bd9d6080-3ada-11e9-8aba-7260af9e3a72.png)
+
+
 - Segunda sección: Va hacer nuestro mensaje reflexivo contenido en un "div" individual
 
 - Tercera sección: Va hacer nuestro video
