@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos-footer.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="fondo-formulario">
+
+
+        <!--Menú-->
+        <div class="menu">
+            <ul class="mhorz">
+            <li class="horz"><img src="images/logo2.png" height="80px" width="160px"></li>
+            <li class="horz"><a href="index.html">INICIO</a></li>
+            <li class="horz"><a href="quienessomos.html">¿QUIÉNES SOMOS?</a></li>
+            <li class="horz"><a href="servicios.html">¿QUÉ HACEMOS?</a></li>
+            <li class="horz"><a href="inscribete.html">INSCRÍBETE</a></li>
+            <li class="horz"><a href="testimonios.html">TESTIMONIOS</a></li>
+            </ul>
+        </div>
+        <!--/Menú-->
+
+
+    <div class="contenedor">
+        <section>
+            <article>
+                <form action="">
+                    <div class="titulo1-form">
+                        <h1>Datos del Estudiante</span></h1>
+                    </div>
+                    <input type="text" class="form-input" placeholder="Nombres">
+                    <input type="text" class="form-input" placeholder="Apellidos">
+                    <div>
+                        <select name="tipoDoc" id="">
+                            <option value="Cedula">Tipo Documento</option>
+                            <option value="Cedula">Cedula</option>
+                            <option value="TarjetaIdentidad">TarjetaIdentidad</option>
+                            <option value="Visa">Visa</option>
+                        </select>
+                        <input type="number" class="form-input-doc" placeholder="Numero de documento">
+                    </div>
+                    <input type="text" class="form-input-barrio" placeholder="Barrio">
+                    <input type="text" class="form-input-direccion" placeholder="Direccion">
+                    <input type="number" class="form-input-telefonos" placeholder="Telefono fijo">
+                    <input type="number" class="form-input-telefonos" placeholder="Telefono movil">
+                    <input type="date" class="form-input-fecha" placeholder="Fecha de Nacimiento">
+                    <label for=""><b>Sexo en Cedula</b></label>
+                    <input type="radio" name="sexo" id="" value="f">F
+                    <input type="radio" name="sexo" id="" value="m">M
+                    <!--subir documentos-->
+                    <button class="form-input-subir">Subir Cedula</button>
+                    <button class="form-input-subir">Subir Recibo Cens</button>
+                    <button class="form-input-subir">Subir Certiciado EPS</button>
+                    <label for=""> <b>Origen</b> </label>
+                    <select name="Origen" id="" class="select-origen">
+                        <option value="99"></option>
+                        <option value="Colegio-1">Colegio 1</option>
+                        <option value="Colegio-2">Colegio 2</option>
+                        <option value="Empresa-1">Empresa 1</option>
+                        <option value="Ninguno">Ninguno</option>
+                    </select>
+                    <label for=""><b>¿Como se entero?</b></label>
+                    <select name="origenEntero" id="" class="select-origen">
+                        <option value="99"></option>
+                        <option value="redesSociales-1">Facebook</option>
+                        <option value="redesSociales-2">Instagram</option>
+                        <option value="radio">Radio</option>
+                        <option value="amigos">Un amigo</option>
+                    </select>
+                    <label for=""><b>Curso</b></label>
+                    <select name="curso" id="">
+                        <option value=""></option>
+                        <option value="frontEndBasico">FrontEnd basico</option>
+                        <option value="frontEndBasico">Full Stack</option>
+                        <option value="frontEndBasico">Marketing on-line</option>
+                    </select>
+                    <label for=""><b>¿Jornada?</b></label>
+                    <input type="radio" name="jornada" id="" value="mañana">Mañana
+                    <input type="radio" name="jornada" id="" value="tarde">tarde
+                    <br>
+                    <button class="form-input-inscribir">Inscribirme</button>
+                </form>
+            </article>
+        </section>
+        <footer>
+            <b>&copy; Todos los derechos reservados.
+                <br>Desarrollado por los alumnos salon Thor jornada de la tarde.</b>
+        </footer>
+    </div>
+</body>
+
+</html>

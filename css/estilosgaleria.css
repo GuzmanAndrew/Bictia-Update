@@ -1,0 +1,89 @@
+
+.helloword
+{
+
+margin : 0px;
+padding : 30px; 
+list-style:none;
+display: inline-block;
+}
+
+.helloword ol li
+{
+list-style:none;
+display: inline-block;
+padding: 20px 20px 20px 20px;
+
+color : white;
+font-zize: 20px;
+font-family : bold;
+
+
+
+}
+
+.helloword2
+{
+background-color : black;
+padding : 0px; 
+}
+
+.imagenestodasigual
+{
+height: 300px; 
+}
+
+.contenedorimagenes
+{
+display: inline-block;
+
+border : 2px solid yellow;
+margin : 50px 50px;
+}
+
+.contenedorimagenes : hover
+{
+background-color: rgba(0,50,255,0.5);
+
+}
+
+
+a
+{
+text-decoration: none;
+color : white;
+font-zize: 20px;
+font-family : bold;
+}
+
+.efecto1:hover
+{
+  -webkit-filter: sepia(100%);
+
+}
+
+.efecto2:hover
+{
+  -webkit-filter: invert(100%);
+filter: invert(100%);
+
+}
+
+.efecto3:hover
+{
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+
+}
+
+
+.efecto4:hover
+{
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.efecto5:hover 
+{
+  -webkit-filter: contrast(1.5); /* 1.5 = 150% */ filter: contrast(1.5);
+}

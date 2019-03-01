@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#divo{
+    height: 315px;
+    width: 100%;
+}
+#fon{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 99.7%;
+    height: 99.7%;
+    background-image: url(../images/fondo-o-2.jpg);
+    background-size: cover;
+    padding: 5% 0;
+    transition: 2s;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.274);
+}
+#left{
+    width: 18.7%;
+    height: 98.7%;
+    margin: 0% 5%;
+    transition: 2s;
+    border-style: solid;
+    border-color: rgba(255, 68, 0, 0.274);
+    background-color: rgba(255, 99, 71, 0.061);
+    float: left;
+
+}
+#left:hover{
+    transition: 2s;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.274);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#right{
+    width: 55%; 
+    height: 70%;
+    margin: 0% 5% 0% 0%;
+    transition: 2s;
+    border-style: solid;
+    border-color: rgba(255, 68, 0, 0.274);
+        background-color: rgba(255, 99, 71, 0.061);  
+    float: right;
+}
+#right:hover{
+    transition: 2s;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.274);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.comodo{
+    height: 90%;
+    width: 80%;
+    padding: 5% 10% 10%;
+}
+#Newsletter{
+    padding: 5%;
+    height: 10%;
+    background-color: rgba(205, 146, 50, 0.157);
+    text-align: center;
+}
+.input{
+    padding: 10%;
+    height: 20%;
+}
+#nombre{
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 5%;
+}
+#clave{
+    padding: 5%;
+    margin: 0 0 5% 0;
+    background-color:  rgba(255, 255, 255, 0.137);;
+}
+#botón-a{
+    width: 40%;
+    height: 65%;
+    padding: 5%;
+    float: left;
+}
+#botón-b{
+    width: 40%;
+    height: 65%;
+    padding: 5%;
+    float: right;
+}
+.bot{
+    height: 100%;
+    width: 100%;
+}
+.bot1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/cancelar.png);
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    color: rgba(129, 107, 85, 0);
+ }
+.bot2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/ingresar.png);
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    color: rgba(205, 134, 63, 0);
+}
+dd, dl{
+    color: rgba(0, 0, 0, 0.472);
+    height: 100%;
+    width: 100%;
+    font-size: 26px;
+}
+dd:hover, dl:hover{
+    color: black;
+}

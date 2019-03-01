@@ -1,0 +1,160 @@
+{
+	margin: 0;
+	padding: 0;	
+}
+
+.fondo-formulario{
+background-image: url("../images/descarga.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position-x: center;
+}
+
+.contenedor form{
+	background-color: rgba(0,0,0,0.3);
+	width: 40%;
+	margin: 20px 30%;
+	padding: 35px;
+	border-radius: 20px;	
+	position: relative;
+
+}
+
+.contenedor2 form{
+	background-color: rgba(0,0,0,0.3);
+	width: 40%;
+	margin: 20px 20px 20px auto;
+	padding: 35px;
+	border-radius: 20px;	
+	position: relative;
+
+}
+
+.contenedor .titulo1-form{
+	width: 70%;
+	height: 35px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	font-size: 25px;
+	margin: 10px 15%;	
+	text-align: center;
+	border-radius: 5px;
+}
+
+.contenedor form .form-input{
+	width: 94%;
+	padding: 10px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-subir{
+	width: 30%;
+	padding: 10px;	
+	margin: 7px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-fecha{
+	width: 44%;
+	padding: 10px;	
+	margin: 5px 48px 5px 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-barrio{
+	width: 40%;
+	padding: 10px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-direccion{
+	width: 47%;
+	padding: 10px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-doc{
+	width: 60%;
+	padding: 10px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-telefonos{
+	width: 43%;
+	padding: 12px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form select {
+	width: 30%;
+	padding: 10px;	
+	margin: 5px 10px 5px 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;			
+}
+
+.contenedor form .select-origen{
+	width: 28.5%;
+	margin: 5px 10px 5px 5px;
+}
+
+.contenedor form label{
+	text-align: center;
+	margin-left: 6px;
+}
+
+footer{
+	width: 100%;
+	background-color: darkgray;
+	color: #fff;
+	text-align: center;
+}
+
+.contenedor form .form-input-inscribir{
+	width: 30%;
+	padding: 10px;	
+	margin: 7px 35%;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-inscribir{
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}

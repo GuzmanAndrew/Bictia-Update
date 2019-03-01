@@ -28,28 +28,6 @@ div{
     box-shadow: #665751;
 }
 
-.acelera{
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    display: inline-flex;
-}
-.vid{
-    position: absolute;
-    z-index: 1;
-    margin: 2px;
-    border: 2px solid red;
-    background-color: rgb(73, 77, 71);
-    height: 500px;
-    width: 100%;
-}
-.texto{
-    position: absolute;
-    z-index: 3;
-    background-color: rgb(184, 206, 63);
-    height: 150px;
-    width: 100%;
-}
 
 body{
     margin: 0;
@@ -168,13 +146,222 @@ a:hover{
     padding-top: 10px; 
     text-align: center;
 }
+*{
+	margin: 0;
+	padding: 0;	
+}
 
-.incuba{
+.fondo-formulario{
+background-image: url("../images/descarga.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position-x: center;
+}
+
+.contenedor form{
+	background-color: rgba(0,0,0,0.3);
+	width: 40%;
+	margin: 20px 30%;
+	padding: 35px;
+	border-radius: 20px;	
+	position: relative;
 
 }
-.entrena{
+
+.contenedor2 form{
+	background-color: rgba(0,0,0,0.3);
+	width: 40%;
+	margin: 20px 20px 20px auto;
+	padding: 35px;
+	border-radius: 20px;	
+	position: relative;
 
 }
-.inversion{
 
+.contenedor .titulo1-form{
+	width: 70%;
+	height: 35px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	font-size: 25px;
+	margin: 10px 15%;	
+	text-align: center;
+	border-radius: 5px;
+}
+
+.contenedor form .form-input{
+	width: 94%;
+	padding: 10px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-subir{
+	width: 30%;
+	padding: 10px;	
+	margin: 7px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-fecha{
+	width: 44%;
+	padding: 10px;	
+	margin: 5px 48px 5px 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-barrio{
+	width: 40%;
+	padding: 10px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-direccion{
+	width: 47%;
+	padding: 10px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-doc{
+	width: 60%;
+	padding: 10px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-telefonos{
+	width: 43%;
+	padding: 12px;	
+	margin: 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form select {
+	width: 30%;
+	padding: 10px;	
+	margin: 5px 10px 5px 5px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;			
+}
+
+.contenedor form .select-origen{
+	width: 28.5%;
+	margin: 5px 10px 5px 5px;
+}
+
+.contenedor form label{
+	text-align: center;
+	margin-left: 6px;
+}
+
+footer{
+	width: 100%;
+	background-color: darkgray;
+	color: #fff;
+	text-align: center;
+}
+
+.contenedor form .form-input-inscribir{
+	width: 30%;
+	padding: 10px;	
+	margin: 7px 35%;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;	
+	border-radius: 5px;		
+}
+
+.contenedor form .form-input-inscribir{
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.footer{
+  margin-top: 300px;
+}
+.galeria{
+  width: 96%;
+  display: inline-flex;
+  height: 420px;
+  background-color: rgb(73, 73, 73);;
+  margin: 1% 15px;
+  border: black solid 1px;
+  padding: 1% 10px;
+}
+.foto{
+  width: 30%;
+  height: 400px;
+  margin: 10px 2%;
+  background-color: rgb(73, 73, 73);
+  overflow: hidden;
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.foto:hover{
+  transform: scale(1.1);
+  transition: 500ms;
+}
+.encima{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(218, 106, 27,0.7);;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.foto:hover .encima{
+  bottom: 0;
+  height: 100%;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  /*background-color: rgba(184, 181, 181, 0.8);*/
+  display: block;
+  width: 100%;
+}
+.video{
+  padding-top: 200px;
+  padding-bottom: 100px;
+  position: relative;
+  left: 350px;
 }

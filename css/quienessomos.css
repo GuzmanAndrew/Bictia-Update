@@ -1,0 +1,206 @@
+.todo{
+    width: 100%;
+    
+}
+.contenedor{
+    width: 90%;
+    margin: 10% 5%;
+    
+}
+.titulo{
+    text-align: center;
+    width: 100%;
+}
+.sub0{
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 210%;
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+}
+.sub{
+    width: 33%;
+    text-align: center;
+    float: left;
+
+}
+.contenedor2{
+    width: 90%;
+    margin: 10% 10%;
+}
+.par{
+    width: 90%;
+    
+}
+.contenedor3{
+    width: 90%;
+    margin: 10% 10%;
+    
+}
+.sub2{
+    width: 42%;
+    text-align: center;
+    float: left;
+    padding: 1%;
+    font-size: 120%;
+}
+.sub3{
+    width: 100%;
+    margin: 5% 0;
+}
+.video{
+
+}
+
+
+.sub4{
+    width: 100%;
+    margin: 10% 0;
+    
+}
+.sub5{
+    width: 100%;
+    margin: 40% 0;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+
+
+.helloword
+{
+
+margin : 0px;
+padding : 30px; 
+list-style:none;
+display: inline-block;
+}
+
+.helloword ol li
+{
+list-style:none;
+display: inline-block;
+padding: 20px 20px 20px 20px;
+
+color : white;
+font-zize: 20px;
+font-family : bold;
+}
+
+.helloword2
+{
+background-color : white;
+padding : 0px; 
+width: 100%;
+
+}
+
+.helloword3
+{
+background-color : white;
+padding : 0px;
+margin-left:  20px;
+
+}
+
+.formatotexto1
+{
+  color: black;
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 50px;
+
+}
+
+
+.textoequipo
+{
+  color: black;
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+
+
+.imagenestodasigual1
+{
+width: 150px;
+height:  150px;
+border: 10px solid white;
+border-radius: 100px;
+
+}
+
+.imagenestodasigual2
+{
+width: 200px;
+border: 2px solid black;
+border-radius: 25px;
+
+}
+
+.contenedorimagenes
+{
+display: inline-block;
+
+border : 2px solid yellow;
+margin : 50px 50px;
+}
+
+.contenedorimagenes2
+{
+display: inline-block;
+border: 2px solid white;
+border-radius: 25px;
+width: 22%;
+
+margin : 5px 5px;
+}
+
+
+.contenedorimagenes3
+{
+display: inline-block;
+
+margin : 10px 10px;
+}
+
+
+
+.efecto1:hover
+{
+  -webkit-filter: invert(100%);
+
+}
+
+.efecto2:hover
+{
+  -webkit-filter: invert(100%);
+filter: invert(100%);
+
+}
+
+.efecto3:hover
+{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+
+}
+
+.titulopersonal
+{
+
+    font-size: 20px;
+}
+
+.pilarestexto
+{
+
+    font-size: 20px;
+    text-align: left;
+}

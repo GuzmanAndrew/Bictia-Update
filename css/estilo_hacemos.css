@@ -1,0 +1,22 @@
+.acelera{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: inline-flex;
+}
+.vid{
+    position: absolute;
+    z-index: 1;
+    margin: 2px;
+    border: 2px solid red;
+    background-color: rgb(73, 77, 71);
+    height: 500px;
+    width: 100%;
+}
+.texto{
+    position: absolute;
+    z-index: 3;
+    background-color: rgb(184, 206, 63);
+    height: 150px;
+    width: 100%;
+}
