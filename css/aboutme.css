@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content-header{
+    background-size: cover; 
+    height: 512px;
+    position: relative;
+    bottom: 21px;
+    background-image: url(../images/educacion.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    border: 1px solid rgb(218, 106, 27);
+    width: 662px;
+    background-color: rgba(85, 83, 82, 0.6);
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: relative;
+    top: 111px;
+    left: 317px;
+}
+.sub-text{
+    color: #000;
+    font-size: 23px;
+}
+.sub-title1{
+    text-align: center;
+}
+.content-pilares{
+    margin-bottom: 97px;
+}
+.content-pilares .pilares{
+    background-color: #e0e0e0;
+    box-shadow: 5px 5px 7px rgb(218, 106, 27);
+    width: 939px;
+    height: 200px;
+    border-radius: 9px;
+    position: relative;
+    top: 21px;
+    left: 182px;
+    padding: 30px 20px 50px 20px;
+}
+
+.pilares{
+    margin-right: 0;
+}
+.img1, .img3{
+    width: 165px;
+    height: 165px;
+}
+.img1, .img2, .img3{
+    margin-left: 70px;
+}
+
+.sub2{
+    position: relative;
+    left: 223px;
+    bottom: 238px;
+}
+
+.sub3{
+    position: relative;
+    left: 208px;
+    bottom: 227px;
+    width: 867;
+    margin: 0;
+}
+
+.pilarestexto1, .pilarestexto2, .pilarestexto2{
+    font-size: 20px
+} 
+
+.pilarestexto1{
+    position: relative;
+    left: 79px;
+}
+
+.pilarestexto2{
+    position: relative;
+    left: 44px;
+}
+
+.pilarestexto3{
+    position: relative;
+    left: 33px;
+}
+.iframe{
+    position: relative;
+    right: 47px;
+    top: 25px;
+}
+
+/*
+
+solid
+dotted
+double
+dashed
+groove
+ridge
+inset
+outset
+
+*/
+
+.content-mi{
+    border: 6px inset rgb(218, 106, 27);
+    width: 356px;
+    color: #fff;
+    border-radius: 9px;
+    position: relative;
+    top: 100px;
+    left: 192px;
+    padding: 30px 20px 50px 20px;
+    margin: 0;
+}
+
+.content-vi{
+    border: 6px dashed rgb(218, 106, 27);
+    width: 356px;
+    color: #fff;
+    border-radius: 9px;
+    position: relative;
+    bottom: 168px;
+    left: 728px;
+    padding: 30px 20px 50px 20px;
+    margin: 0;
+}
+.sub-title3{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+.equipo{
+    position: relative;
+    left: 161px;
+}
+
+.equipo1, .equipo2, .equipo3, .equipo4{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 80px;
+}
+.update-equipo1, .update-equipo2, .update-equipo3, .update-equipo3{
+    float: left;
+    position: relative;
+    bottom: 2px;
+}
+
+.text-equipo1, .text-equipo2, .text-equipo3{
+    position: absolute;
+    left: 58px;
+}
+
+.text-equipo4{
+    position: relative;
+    left: 738px;
+    width: 182px;
+    margin-right: 0;
+}

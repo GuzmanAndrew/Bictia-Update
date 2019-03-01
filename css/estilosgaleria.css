@@ -13,13 +13,9 @@ display: inline-block;
 list-style:none;
 display: inline-block;
 padding: 20px 20px 20px 20px;
-
 color : white;
 font-zize: 20px;
 font-family : bold;
-
-
-
 }
 
 .helloword2
@@ -86,4 +82,9 @@ filter: grayscale(100%);
 .efecto5:hover 
 {
   -webkit-filter: contrast(1.5); /* 1.5 = 150% */ filter: contrast(1.5);
+}
+
+.contenedor-imagenes{
+  position: relative;
+  left: 151px;
 }

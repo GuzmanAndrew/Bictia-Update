@@ -204,3 +204,13 @@ filter: invert(100%);
     font-size: 20px;
     text-align: left;
 }
+
+/*Update*/
+
+.footer-update-quienessomos{
+    width: 100%;
+    position: relative !important;
+    top: 130px !important;
+}
+
+/*Update*/
